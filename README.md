@@ -21,7 +21,7 @@ finish ISE will automatically open Xilinx Platform Studio EDK.
 _Then copy and paste following lines into that
 #### # _GENERIC TEMPLATE_
 
-```
+```C
 Net fpga_0_clk_1_sys_clk_pin TNM_NET = sys_clk_pin;
 TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
 Net fpga_0_clk_1_sys_clk_pin LOC=AH15;
