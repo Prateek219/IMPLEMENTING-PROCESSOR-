@@ -40,5 +40,40 @@ Net xps_gpio_0_GPIO_IO_pin<7> LOC=AE24; # Bank 21, Vcco=1.8V, DCI using 49.9 ohm
 
 ```
 6.
+![Screenshot (74)](https://user-images.githubusercontent.com/64007722/79831825-cd09f800-83c5-11ea-99a0-6ba549f8f4c5.png)
+
+7.
+Generate top level HDL source then Export design to sdk along with bitstream. Then create new
+xilinx c project Hello World.
+After this copy paste following code in hello_world.c
+
+```
+#include "xparameters.h"
+#include "xgpio.h"
+Click on generate net list then close
+edk. 
+void delay_ms()
+{
+int i=0;
+for(i=0;i<5*13000000;i++){}
+}
+int main(void)
+{
+int j;
+XGpio leds;
+XGpio_Initialize(&leds,XPAR_XPS_GPIO_0_DEVICE_ID);
+XGpio_SetDataDirection(&leds, 1, 0x00000000);
+while(1)
+{
+j=(j+1)%16;
+XGpio_DiscreteWrite(&leds,1,j);
+delay_ms();
+}
+
+}
+```
+After this programme fpga then run as->launch on hardware.
+Take this guide just as an test drive.
+
 
 
