@@ -15,5 +15,7 @@ finish ISE will automatically open Xilinx Platform Studio EDK.
 4.
 ![Screenshot (71)](https://user-images.githubusercontent.com/64007722/79830979-2ffa8f80-83c4-11ea-8e2b-abd92eb42b16.png)
 ![Screenshot (72)](https://user-images.githubusercontent.com/64007722/79831181-8962be80-83c4-11ea-8d1b-aaf67815aa0e.png)
+5.
+![Screenshot (73)](https://user-images.githubusercontent.com/64007722/79831368-e8283800-83c4-11ea-9f9a-e97d7046477a.png)
 
 
