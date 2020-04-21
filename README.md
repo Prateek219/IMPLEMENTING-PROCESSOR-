@@ -14,4 +14,6 @@ finish ISE will automatically open Xilinx Platform Studio EDK.
 3. Go to your project directory search for a file "download.cmd" change 1 in that file by 5.
 4.
 ![Screenshot (71)](https://user-images.githubusercontent.com/64007722/79830979-2ffa8f80-83c4-11ea-8e2b-abd92eb42b16.png)
+![Screenshot (72)](https://user-images.githubusercontent.com/64007722/79831181-8962be80-83c4-11ea-8d1b-aaf67815aa0e.png)
+
 
